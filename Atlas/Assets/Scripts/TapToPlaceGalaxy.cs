@@ -11,6 +11,8 @@ public class TapToPlaceGalaxy : MonoBehaviour
     public GameObject objectToPlace;
     public GameObject placementIndicator;
 
+    private GameObject placedObject = null;
+
     private ARSessionOrigin arOrigin;
     private ARRaycastManager arRaycastManager;
     private Pose placementPose;
@@ -29,20 +31,25 @@ public class TapToPlaceGalaxy : MonoBehaviour
         UpdatePlacementPose();
         UpdatePLacementIndicator();
 
-        if (placementPoseIsValid && Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+        if (placementPoseIsValid && Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began && placedObject == null)
         {
             PlaceObject();
         }
     }
 
+    public GameObject GetPlacedObject()
+    {
+        return placedObject;
+    }
+
     private void PlaceObject()
     {
-        Instantiate(objectToPlace, placementPose.position, placementPose.rotation);
+        placedObject = Instantiate(objectToPlace, placementPose.position, placementPose.rotation);
     }
 
     private void UpdatePLacementIndicator()
     {
-        if (placementPoseIsValid)
+        if (placementPoseIsValid && placedObject == null)
         {
             placementIndicator.SetActive(true);
             placementIndicator.transform.SetPositionAndRotation(placementPose.position, placementPose.rotation);

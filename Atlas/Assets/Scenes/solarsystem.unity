@@ -554,6 +554,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1716120538}
   - component: {fileID: 1716120537}
+  - component: {fileID: 1716120539}
   m_Layer: 0
   m_Name: Interaction
   m_TagString: Untagged
@@ -573,7 +574,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc33ac965c76b43aca057d33113d8ab9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToPlace: {fileID: 84504837900566122, guid: 733c449669711498ba533ea185c80cf4,
+  objectToPlace: {fileID: 8918408796103900447, guid: ca88b5076a23f46e49c4f17c5a051776,
     type: 3}
   placementIndicator: {fileID: 163608007}
 --- !u!4 &1716120538
@@ -590,3 +591,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1716120539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716120536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b65ea068d85047fda6456e108db4a2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  placeObject: {fileID: 1716120537}

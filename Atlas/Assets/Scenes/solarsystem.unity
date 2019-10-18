@@ -257,8 +257,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   orbitingObject: {fileID: 1470065450}
   orbitPath:
-    xAxis: 5
-    yAxis: 2.5
+    xAxis: 3
+    yAxis: 1.5
   orbitProgress: 0
   orbitPeriod: 6
   orbitActive: 1
@@ -342,8 +342,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   orbitingObject: {fileID: 1022587957}
   orbitPath:
-    xAxis: 7
-    yAxis: 4
+    xAxis: 4
+    yAxis: 3
   orbitProgress: 0.4
   orbitPeriod: 6
   orbitActive: 1
@@ -610,8 +610,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   orbitingObject: {fileID: 2103304847}
   orbitPath:
-    xAxis: 9
-    yAxis: 8
+    xAxis: 5
+    yAxis: 6
   orbitProgress: 0.7
   orbitPeriod: 12
   orbitActive: 1
@@ -765,6 +765,63 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1470065449}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1660635603
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1660635606}
+  - component: {fileID: 1660635605}
+  - component: {fileID: 1660635604}
+  m_Layer: 0
+  m_Name: AR Session
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1660635604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660635603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa850fbd5b8aded44846f96e35f1a9f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1660635605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660635603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3859a92a05d4f5d418cb6ca605290e74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AttemptUpdate: 1
+--- !u!4 &1660635606
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660635603}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1928165786
 GameObject:
   m_ObjectHideFlags: 0

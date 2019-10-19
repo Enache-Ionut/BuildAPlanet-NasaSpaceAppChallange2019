@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class Planet : MonoBehaviour
+public class PlanetPanelManager : MonoBehaviour
 {
+    public GameObject planetSizePanel;
+    public GameObject distancePanel;
+    public GameObject moonPanel;
 
     // Start is called before the first frame update
     void Start()

@@ -30,7 +30,7 @@ public class OrbitMotion : MonoBehaviour
 
     private void Update()
     {
-        if(orbitPeriod < 0.1f)
+        if (orbitPeriod < 0.1f)
         {
             orbitPeriod = 0.1f;
         }
@@ -40,12 +40,20 @@ public class OrbitMotion : MonoBehaviour
         orbitProgress %= 1f;
 
         SetOrbitingObjectPosition();
+       
     }
 
     void SetOrbitingObjectPosition()
     {
         Vector3 orbitPos = orbitPath.Evaluate(orbitProgress);
-        orbitingObject.localPosition = new Vector3(orbitPos.x, 0, orbitPos.y);
+        if (orbitActive)
+        {
+            orbitingObject.localPosition = new Vector3(orbitPos.x, 0, orbitPos.y);
+        }
+        else
+        {
+            orbitingObject.localPosition = new Vector3(orbitPath.xAxis, 0, 0);
+        }
     }
 
     /*

@@ -30,5 +30,6 @@ public class CreateAxis : MonoBehaviour
         }
         cylinder.transform.rotation = gameObject.transform.rotation;
         cylinder.transform.localScale = new Vector3(width, length, width);
+        cylinder.transform.position = gameObject.transform.position;
     }
 }

@@ -8,10 +8,24 @@ public class ShowPanel : MonoBehaviour
 
     public void OpenPanel()
     {
+        EnablePanel();
+        
         if(Panel != null)
         {
-            bool isActive = Panel.activeSelf;
-            Panel.SetActive(isActive);
+            Animator animator = Panel.GetComponent<Animator>();
+            if(animator != null)
+            {
+                bool isOpen = animator.GetBool("open");
+                animator.SetBool("open", !isOpen);
+
+            }
         }
     }
+
+    public void EnablePanel()
+    {
+        Panel.SetActive(true);
+    }
+
+    
 }

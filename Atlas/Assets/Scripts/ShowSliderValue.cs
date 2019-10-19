@@ -15,9 +15,13 @@ public class ShowSliderValue : MonoBehaviour
     public void UpdateLabelNo(float value)
     {
         Text lbl = GetComponent<Text>();
+
+        if (int.Parse(lbl.text) > value)
+            planet.transform.localScale += new Vector3(1f,1f,1f);
+        else
+            planet.transform.localScale -= new Vector3(1f, 1f, 1f);
+
         if (lbl != null)
             lbl.text = value.ToString();
-
-        planet.transform.localScale += new Vector3(1f, 1f, 1f);
     }
 }

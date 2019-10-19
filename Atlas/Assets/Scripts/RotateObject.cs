@@ -15,7 +15,7 @@ public class RotateObject : MonoBehaviour
 
         transform.RotateAround(Vector3.up, -rotX);
         transform.RotateAround(Vector3.right, rotY);
-        transform.RotateAround(Vector3.right, -rotZ);
+        transform.RotateAround(Vector3.left, rotZ);
 
     }
 

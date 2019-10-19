@@ -559,6 +559,11 @@ PrefabInstance:
       propertyPath: orbitPeriod
       value: 303
       objectReference: {fileID: 0}
+    - target: {fileID: 416821446800467670, guid: 11858787176db42c59bf057834cd56d1,
+        type: 3}
+      propertyPath: orbitPeriod
+      value: 27.322
+      objectReference: {fileID: 0}
     - target: {fileID: 416821446800467689, guid: 11858787176db42c59bf057834cd56d1,
         type: 3}
       propertyPath: yRotation

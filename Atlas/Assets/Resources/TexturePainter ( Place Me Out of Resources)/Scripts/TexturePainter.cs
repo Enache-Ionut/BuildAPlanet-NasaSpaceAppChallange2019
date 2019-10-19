@@ -16,8 +16,9 @@ public class TexturePainter : MonoBehaviour {
 	public Sprite cursorPaint,cursorDecal; // Cursor for the differen functions 
 	public RenderTexture canvasTexture; // Render Texture that looks at our Base Texture and the painted brushes
 	public Material baseMaterial; // The material of our base texture (Were we will save the painted texture)
+    public string decalEntityName;
 
-	Painter_BrushMode mode; //Our painter mode (Paint brushes or decals)
+    Painter_BrushMode mode; //Our painter mode (Paint brushes or decals)
 	float brushSize=1.0f; //The size of our brush
 	Color brushColor; //The selected color
 	int brushCounter=0,MAX_BRUSH_COUNT=1000; //To avoid having millions of brushes
@@ -45,7 +46,7 @@ public class TexturePainter : MonoBehaviour {
 				brushObj.GetComponent<SpriteRenderer>().color=brushColor; //Set the brush color
 			}
 			else{
-				brushObj=(GameObject)Instantiate(Resources.Load("TexturePainter-Instances/DecalEntity")); //Paint a decal
+				brushObj=(GameObject)Instantiate(Resources.Load("TexturePainter-Instances/"+ decalEntityName)); //Paint a decal
 			}
 			brushColor.a=brushSize*2.0f; // Brushes have alpha to have a merging effect when painted over.
 			brushObj.transform.parent=brushContainer.transform; //Add the brush to our container to be wiped later

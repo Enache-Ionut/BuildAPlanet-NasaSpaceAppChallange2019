@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 651611395544047228}
   - component: {fileID: 651611395544047229}
+  - component: {fileID: 649232314}
   m_Layer: 0
   m_Name: TexturePainter
   m_TagString: Untagged
@@ -51,4 +52,27 @@ MonoBehaviour:
   cursorDecal: {fileID: 21300000, guid: 31313dc91f5dd014fa88faeadfe651e6, type: 3}
   canvasTexture: {fileID: 8400000, guid: 1f231d337c948e14a9f8233d9915e7e5, type: 2}
   baseMaterial: {fileID: 2100000, guid: 2d1ecbf1e18fa4c4e8113b71c877679d, type: 2}
-  decalEntityName: DecalEntity
+  decalEntityName: EarthEntity
+--- !u!114 &649232314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 651611395544047218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 600d3290521d9c640a15760634a0ef29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  decalNames:
+  - EarthEntity
+  - MountainEntity
+  - SandEntity
+  - WaterEntity
+  cursorDecals:
+  - {fileID: 21300000, guid: 31313dc91f5dd014fa88faeadfe651e6, type: 3}
+  - {fileID: 21300000, guid: c9716fbdea17d124ebaee74bb4dee2e5, type: 3}
+  - {fileID: 21300000, guid: b46db0c87cbd3bc429a6d3bec85d9d21, type: 3}
+  - {fileID: 21300000, guid: 18bba0529cab59649af4dd3d8d41f3ad, type: 3}
+  cursorRender: {fileID: 0}

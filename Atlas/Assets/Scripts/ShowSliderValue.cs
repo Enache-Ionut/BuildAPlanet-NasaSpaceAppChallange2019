@@ -16,10 +16,13 @@ public class ShowSliderValue : MonoBehaviour
     {
         Text lbl = GetComponent<Text>();
 
-        if (int.Parse(lbl.text) > value)
-            planet.transform.localScale += new Vector3(1f,1f,1f);
+        Vector3 scale1 = new Vector3(1f, 1f, 1f);
+        if (int.Parse(lbl.text) < value)
+            planet.transform.localScale += value / 100000 * scale1;
         else
-            planet.transform.localScale -= new Vector3(1f, 1f, 1f);
+            planet.transform.localScale -= value / 100000 * scale1;
+        if (value == 4000)
+            planet.transform.localScale = scale1;
 
         if (lbl != null)
             lbl.text = value.ToString();

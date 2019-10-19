@@ -1,0 +1,12 @@
+Orbital factors:
+
+Earth: 1x
+
+Mercury: 5x (faster)
+Venus: 1.666x
+Mars: 0.526x
+Jupiter: 0.084x
+Saturn: 0.033x
+Uranus: 0.012x
+Neptune: 0.006x
+Pluto: 0.004x

@@ -41,7 +41,7 @@ public class PinchToZoom : MonoBehaviour
 
         // Find the difference in the distances between each frame.
         float deltaMagnitudeDiff = prevTouchDeltaMag - touchDeltaMag;
-        deltaMagnitudeDiff *= -0.0005f;
+        deltaMagnitudeDiff *= -0.05f;
 
         placedObject.transform.localScale += new Vector3(deltaMagnitudeDiff, deltaMagnitudeDiff, deltaMagnitudeDiff);
     }

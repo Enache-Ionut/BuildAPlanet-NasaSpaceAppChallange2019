@@ -574,7 +574,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc33ac965c76b43aca057d33113d8ab9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToPlace: {fileID: 8918408796103900447, guid: ca88b5076a23f46e49c4f17c5a051776,
+  objectToPlace: {fileID: 8725298201441427598, guid: 6756ee31de0b2446f8dca25cab0daea3,
     type: 3}
   placementIndicator: {fileID: 163608007}
 --- !u!4 &1716120538
@@ -600,7 +600,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1716120536}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b65ea068d85047fda6456e108db4a2e, type: 3}
+  m_Script: {fileID: 11500000, guid: 0b79098a8ac214d31b24fbc9ec50d53a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   placeObject: {fileID: 1716120537}

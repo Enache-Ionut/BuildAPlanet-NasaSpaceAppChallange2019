@@ -5,16 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/UIScene.unity
     guid: 089be5638249bcb4aa9360e49467764d
   - enabled: 1
     path: Assets/Scenes/solarsystem.unity
     guid: 6274b7f975aa44708a580afebe191e49
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Universe.unity
     guid: d4d145cd5e2fcfb42ad7d662b3578736
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/PlanetEditor.unity
     guid: b918aa087e0934ce9a8d7ce3153f17db
   m_configObjects: {}

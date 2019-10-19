@@ -62,6 +62,11 @@ public class TapToPlaceGalaxy : MonoBehaviour
 
     private void UpdatePlacementPose()
     {
+        if(arRaycastManager == null || arOrigin == null)
+        {
+            return;
+        }
+
         var screenCenter = Camera.current.ViewportToScreenPoint(new Vector3(0.5f, 0.5f));
         var hits = new List<ARRaycastHit>();
         arRaycastManager.Raycast(screenCenter, hits, TrackableType.Planes);

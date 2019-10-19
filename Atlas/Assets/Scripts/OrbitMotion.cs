@@ -25,7 +25,21 @@ public class OrbitMotion : MonoBehaviour
 
         SetOrbitingObjectPosition();
 
-        StartCoroutine(AnimateOrbit());
+        //StartCoroutine(AnimateOrbit());
+    }
+
+    private void Update()
+    {
+        if(orbitPeriod < 0.1f)
+        {
+            orbitPeriod = 0.1f;
+        }
+
+        float orbitSpeed = 1f / orbitPeriod;
+        orbitProgress += Time.deltaTime * orbitSpeed;
+        orbitProgress %= 1f;
+
+        SetOrbitingObjectPosition();
     }
 
     void SetOrbitingObjectPosition()
@@ -34,6 +48,7 @@ public class OrbitMotion : MonoBehaviour
         orbitingObject.localPosition = new Vector3(orbitPos.x, 0, orbitPos.y);
     }
 
+    /*
     IEnumerator AnimateOrbit()
     {
         if(orbitPeriod < 0.1f)
@@ -53,5 +68,5 @@ public class OrbitMotion : MonoBehaviour
             yield return null;
         }
     }
-    
+    */
 }

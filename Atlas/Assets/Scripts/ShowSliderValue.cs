@@ -1,3 +1,4 @@
+using System.Globalization;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,6 +11,21 @@ public class ShowSliderValue : MonoBehaviour
         Text lbl = GetComponent<Text>();
         if (lbl != null)
             lbl.text = Mathf.RoundToInt(value * 100) + "%";
+    }
+
+    public void UpdateLabel2(float value)
+    {
+        Text lbl = GetComponent<Text>();
+
+        NumberFormatInfo setPrecision = new NumberFormatInfo();
+
+        setPrecision.NumberDecimalDigits = 2;
+
+        if (lbl != null)
+            if (value * 100 < 1)
+                lbl.text = (value * 100).ToString("N", setPrecision) + "%";
+            else
+                lbl.text = Mathf.RoundToInt(value * 100) + "%";
     }
 
     public void UpdateLabelNo(float value)

@@ -519,6 +519,11 @@ PrefabInstance:
       propertyPath: orbitPeriod
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 416821446800467679, guid: 11858787176db42c59bf057834cd56d1,
+        type: 3}
+      propertyPath: yRotation
+      value: 24
+      objectReference: {fileID: 0}
     - target: {fileID: 416821446800467677, guid: 11858787176db42c59bf057834cd56d1,
         type: 3}
       propertyPath: orbitPeriod
@@ -553,6 +558,41 @@ PrefabInstance:
         type: 3}
       propertyPath: orbitPeriod
       value: 303
+      objectReference: {fileID: 0}
+    - target: {fileID: 416821446800467689, guid: 11858787176db42c59bf057834cd56d1,
+        type: 3}
+      propertyPath: yRotation
+      value: 58.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 416821446800467681, guid: 11858787176db42c59bf057834cd56d1,
+        type: 3}
+      propertyPath: yRotation
+      value: 243.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1184422351585019313, guid: 11858787176db42c59bf057834cd56d1,
+        type: 3}
+      propertyPath: yRotation
+      value: 0.4376
+      objectReference: {fileID: 0}
+    - target: {fileID: 3226957025875734559, guid: 11858787176db42c59bf057834cd56d1,
+        type: 3}
+      propertyPath: yRotation
+      value: 0.6716
+      objectReference: {fileID: 0}
+    - target: {fileID: 4206080598526551607, guid: 11858787176db42c59bf057834cd56d1,
+        type: 3}
+      propertyPath: yRotation
+      value: 0.1564
+      objectReference: {fileID: 0}
+    - target: {fileID: 4512074403965727654, guid: 11858787176db42c59bf057834cd56d1,
+        type: 3}
+      propertyPath: yRotation
+      value: 0.413
+      objectReference: {fileID: 0}
+    - target: {fileID: 9026212327784437840, guid: 11858787176db42c59bf057834cd56d1,
+        type: 3}
+      propertyPath: yRotation
+      value: 0.7189
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11858787176db42c59bf057834cd56d1, type: 3}

@@ -7,7 +7,7 @@ public class OpenInfoPanel : MonoBehaviour
 {
     public GameObject Panel;
 
-    public void EnablePanel()
+    void EnablePanel(bool param)
     {
         Panel.SetActive(true);
     }
@@ -16,154 +16,175 @@ public class OpenInfoPanel : MonoBehaviour
     RaycastHit hit;
 
     void OnMouseDown()
-    { 
-        ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        if (Physics.Raycast(ray, out hit))
+    {
+        EnablePanel(false);
+        if (Panel.activeSelf)
         {
-            string getTextInfoPlanet = hit.collider.gameObject.GetComponent<Text>().ToString();
-            switch (hit.collider.tag)
+            ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            if (Physics.Raycast(ray, out hit))
             {
-                case "Mercury":
-                    EnablePanel();
+                string getTextInfoPlanet = hit.collider.gameObject.GetComponent<Text>().text;
 
-                    if (Panel != null)
-                    {
-                        Animator animator = Panel.GetComponent<Animator>();
-                        Panel.GetComponent<Text>().text = getTextInfoPlanet;
-                        if (animator != null)
+                Component[] panelTextList;
+                panelTextList = Panel.GetComponentsInChildren<Text>();
+                EnablePanel(false);
+
+                switch (hit.collider.tag)
+                {
+                    case "Mercury":
+                        EnablePanel(true);
+
+                        if (Panel != null)
                         {
-                            bool isOpen = animator.GetBool("open");
-                            animator.SetBool("open", !isOpen);
+                            Animator animator = Panel.GetComponent<Animator>();
+                            panelTextList[0].GetComponent<Text>().text = "Mercury";
+                            panelTextList[1].GetComponent<Text>().text = getTextInfoPlanet;
+                            if (animator != null)
+                            {
+                                bool isOpen = animator.GetBool("open");
+                                animator.SetBool("open", !isOpen);
 
+                            }
                         }
-                    }
 
-                    break;
-                case "Venus":
-                    EnablePanel();
+                        break;
+                    case "Venus":
+                        EnablePanel(true);
 
-                    if (Panel != null)
-                    {
-                        Animator animator = Panel.GetComponent<Animator>();
-                        Panel.GetComponent<Text>().text = getTextInfoPlanet;
-                        if (animator != null)
+                        if (Panel != null)
                         {
-                            bool isOpen = animator.GetBool("open");
-                            animator.SetBool("open", !isOpen);
+                            Animator animator = Panel.GetComponent<Animator>();
+                            panelTextList[0].GetComponent<Text>().text = "Venus";
+                            panelTextList[1].GetComponent<Text>().text = getTextInfoPlanet;
+                            if (animator != null)
+                            {
+                                bool isOpen = animator.GetBool("open");
+                                animator.SetBool("open", !isOpen);
 
+                            }
                         }
-                    }
-                    break;
-                case "Earth":
-                    EnablePanel();
+                        break;
+                    case "Earth":
+                        EnablePanel(true);
 
-                    if (Panel != null)
-                    {
-                        Animator animator = Panel.GetComponent<Animator>();
-                        Panel.GetComponent<Text>().text = getTextInfoPlanet;
-                        if (animator != null)
+                        if (Panel != null)
                         {
-                            bool isOpen = animator.GetBool("open");
-                            animator.SetBool("open", !isOpen);
+                            Animator animator = Panel.GetComponent<Animator>();
+                            panelTextList[0].GetComponent<Text>().text = "Earth";
+                            panelTextList[1].GetComponent<Text>().text = getTextInfoPlanet;
+                            if (animator != null)
+                            {
+                                bool isOpen = animator.GetBool("open");
+                                animator.SetBool("open", !isOpen);
 
+                            }
                         }
-                    }
-                    break;
-                case "Mars":
-                    EnablePanel();
+                        break;
+                    case "Mars":
+                        EnablePanel(true);
 
-                    if (Panel != null)
-                    {
-                        Animator animator = Panel.GetComponent<Animator>();
-                        Panel.GetComponent<Text>().text = getTextInfoPlanet;
-                        if (animator != null)
+                        if (Panel != null)
                         {
-                            bool isOpen = animator.GetBool("open");
-                            animator.SetBool("open", !isOpen);
+                            Animator animator = Panel.GetComponent<Animator>();
+                            panelTextList[0].GetComponent<Text>().text = "Mars";
+                            panelTextList[1].GetComponent<Text>().text = getTextInfoPlanet;
+                            if (animator != null)
+                            {
+                                bool isOpen = animator.GetBool("open");
+                                animator.SetBool("open", !isOpen);
 
+                            }
                         }
-                    }
-                    break;
-                case "Jupiter":
-                    EnablePanel();
+                        break;
+                    case "Jupiter":
+                        EnablePanel(true);
 
-                    if (Panel != null)
-                    {
-                        Animator animator = Panel.GetComponent<Animator>();
-                        Panel.GetComponent<Text>().text = getTextInfoPlanet;
-                        if (animator != null)
+                        if (Panel != null)
                         {
-                            bool isOpen = animator.GetBool("open");
-                            animator.SetBool("open", !isOpen);
+                            Animator animator = Panel.GetComponent<Animator>();
+                            panelTextList[0].GetComponent<Text>().text = "Jupiter";
+                            panelTextList[1].GetComponent<Text>().text = getTextInfoPlanet;
+                            if (animator != null)
+                            {
+                                bool isOpen = animator.GetBool("open");
+                                animator.SetBool("open", !isOpen);
 
+                            }
                         }
-                    }
-                    break;
-                case "Saturn":
-                    EnablePanel();
+                        break;
+                    case "Saturn":
+                        EnablePanel(true);
 
-                    if (Panel != null)
-                    {
-                        Animator animator = Panel.GetComponent<Animator>();
-                        Panel.GetComponent<Text>().text = getTextInfoPlanet;
-                        if (animator != null)
+                        if (Panel != null)
                         {
-                            bool isOpen = animator.GetBool("open");
-                            animator.SetBool("open", !isOpen);
+                            Animator animator = Panel.GetComponent<Animator>();
+                            panelTextList[0].GetComponent<Text>().text = "Saturn";
+                            panelTextList[1].GetComponent<Text>().text = getTextInfoPlanet;
+                            if (animator != null)
+                            {
+                                bool isOpen = animator.GetBool("open");
+                                animator.SetBool("open", !isOpen);
 
+                            }
                         }
-                    }
-                    break;
-                case "Uranus":
-                    EnablePanel();
+                        break;
+                    case "Uranus":
+                        EnablePanel(true);
 
-                    if (Panel != null)
-                    {
-                        Animator animator = Panel.GetComponent<Animator>();
-                        Panel.GetComponent<Text>().text = getTextInfoPlanet;
-                        if (animator != null)
+                        if (Panel != null)
                         {
-                            bool isOpen = animator.GetBool("open");
-                            animator.SetBool("open", !isOpen);
+                            Animator animator = Panel.GetComponent<Animator>();
+                            panelTextList[0].GetComponent<Text>().text = "Uranus";
+                            panelTextList[1].GetComponent<Text>().text = getTextInfoPlanet;
+                            if (animator != null)
+                            {
+                                bool isOpen = animator.GetBool("open");
+                                animator.SetBool("open", !isOpen);
 
+                            }
                         }
-                    }
-                    break;
-                case "Neptune":
-                    EnablePanel();
+                        break;
+                    case "Neptune":
+                        EnablePanel(true);
 
-                    if (Panel != null)
-                    {
-                        Animator animator = Panel.GetComponent<Animator>();
-                        Panel.GetComponent<Text>().text = getTextInfoPlanet;
-                        if (animator != null)
+                        if (Panel != null)
                         {
-                            bool isOpen = animator.GetBool("open");
-                            animator.SetBool("open", !isOpen);
+                            Animator animator = Panel.GetComponent<Animator>();
+                            panelTextList[0].GetComponent<Text>().text = "Neptune";
+                            panelTextList[1].GetComponent<Text>().text = getTextInfoPlanet;
+                            if (animator != null)
+                            {
+                                bool isOpen = animator.GetBool("open");
+                                animator.SetBool("open", !isOpen);
 
+                            }
                         }
-                    }
-                    break;
-                case "Pluto":
-                    EnablePanel();
+                        break;
+                    case "Pluto":
+                        EnablePanel(true);
 
-                    if (Panel != null)
-                    {
-                        Animator animator = Panel.GetComponent<Animator>();
-                        Panel.GetComponent<Text>().text = getTextInfoPlanet;
-                        if (animator != null)
+                        if (Panel != null)
                         {
-                            bool isOpen = animator.GetBool("open");
-                            animator.SetBool("open", !isOpen);
+                            Animator animator = Panel.GetComponent<Animator>();
+                            panelTextList[0].GetComponent<Text>().text = "Pluto";
+                            panelTextList[1].GetComponent<Text>().text = getTextInfoPlanet;
 
+                            if (animator != null)
+                            {
+                                bool isOpen = animator.GetBool("open");
+                                animator.SetBool("open", !isOpen);
+
+                            }
                         }
-                    }
-                    break;
-                default:
-                    break;
+                        break;
+                    default:
+                        EnablePanel(false);
+                        break;
 
+                }
             }
         }
+        
     }
 }
 

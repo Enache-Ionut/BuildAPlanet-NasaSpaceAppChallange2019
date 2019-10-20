@@ -10,11 +10,15 @@ public class FindPlanet : MonoBehaviour
 {
     private ARSessionOrigin arOrigin;
     private ARRaycastManager arRaycastManager;
+
+    public GameObject Panel;
+
     // Start is called before the first frame update
     void Start()
     {
         arOrigin = FindObjectOfType<ARSessionOrigin>();
         arRaycastManager = FindObjectOfType<ARRaycastManager>();
+        Panel.SetActive(false);
     }
 
     // Update is called once per frame
@@ -32,9 +36,30 @@ public class FindPlanet : MonoBehaviour
                 var planetInfo = raycastHit.transform.gameObject.GetComponent<PlanetInfo>();
                 if(planetInfo != null)
                 {
-                    raycastHit.transform.gameObject.SetActive(false);
+                    ActivatePanel(planetInfo.header, planetInfo.description);
                 }
             }
+            else
+            {
+                DeactivatePanel();
+            }
         }
+    }
+
+    void ActivatePanel(string header, string description)
+    {
+        Panel.SetActive(true);
+        Transform[] ts = gameObject.GetComponentsInChildren<Transform>();
+
+        Debug.Log(header);
+        Debug.Log(description);
+
+        ts[0].gameObject.GetComponent<UnityEngine.UI.Text>().text = header;
+        ts[1].gameObject.GetComponent<UnityEngine.UI.Text>().text = description;
+    }
+
+    void DeactivatePanel()
+    {
+        Panel.SetActive(false);
     }
 }

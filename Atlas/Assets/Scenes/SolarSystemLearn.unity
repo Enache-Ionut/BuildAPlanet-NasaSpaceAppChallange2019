@@ -1271,6 +1271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b908695ce49841bd9d41e88a1c2a506, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Panel: {fileID: 3943555634947722575}
 --- !u!1 &1719279245
 GameObject:
   m_ObjectHideFlags: 0
@@ -1500,7 +1501,7 @@ GameObject:
   - component: {fileID: 3943555634592324840}
   - component: {fileID: 3943555634592324843}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Title
   m_TagString: Panel text name
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1632,7 +1633,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!222 &3943555634947722578
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1699,10 +1700,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -1710,7 +1711,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: Blah blah
 --- !u!1 &3943555635360631055
 GameObject:
   m_ObjectHideFlags: 0

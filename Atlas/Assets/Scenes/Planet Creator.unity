@@ -3129,11 +3129,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 618534343802461658, guid: eea68b8ef5136274a99d2b68c7194703,
-        type: 3}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 581037058}
     - target: {fileID: 618534343465687424, guid: eea68b8ef5136274a99d2b68c7194703,
         type: 3}
       propertyPath: brushContainer
@@ -3149,6 +3144,11 @@ PrefabInstance:
       propertyPath: canvasCam
       value: 
       objectReference: {fileID: 1881853723}
+    - target: {fileID: 618534343802461658, guid: eea68b8ef5136274a99d2b68c7194703,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 581037058}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eea68b8ef5136274a99d2b68c7194703, type: 3}
 --- !u!114 &651611395544047231 stripped

@@ -11,6 +11,7 @@ public class OrbitMotion : MonoBehaviour
     [Range(0f, 1f)]
     public float orbitProgress = 0f;
     public float orbitPeriod = 3f;
+    public float periodDevider = 1f;
 
     public bool orbitActive = true;
 
@@ -30,12 +31,14 @@ public class OrbitMotion : MonoBehaviour
 
     private void Update()
     {
-        if (orbitPeriod < 0.1f)
+        var tempOrbitPeriod = orbitPeriod / periodDevider;
+
+        if (tempOrbitPeriod < 0.001f)
         {
-            orbitPeriod = 0.1f;
+            tempOrbitPeriod = 0.001f;
         }
 
-        float orbitSpeed = 1f / orbitPeriod;
+        float orbitSpeed = 1f / tempOrbitPeriod;
         orbitProgress += Time.deltaTime * orbitSpeed;
         orbitProgress %= 1f;
 

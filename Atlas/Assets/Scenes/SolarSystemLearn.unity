@@ -316,7 +316,7 @@ GameObject:
   - component: {fileID: 258724665}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: SliderText
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1093,6 +1093,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1689538034}
   - component: {fileID: 1689538035}
+  - component: {fileID: 1689538036}
   m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
@@ -1165,24 +1166,37 @@ MonoBehaviour:
   m_FillRect: {fileID: 1719279246}
   m_HandleRect: {fileID: 369878915}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 1
-  m_WholeNumbers: 0
-  m_Value: 0
+  m_MinValue: 1
+  m_MaxValue: 100
+  m_WholeNumbers: 1
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 1689538036}
+        m_MethodName: OnValueChanged
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1689538036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1689538033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcfd208c5ea88486b81e6be812a3bf18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  placeObject: {fileID: 1716120537}
 --- !u!1 &1716120536
 GameObject:
   m_ObjectHideFlags: 0
@@ -1369,6 +1383,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   placeObject: {fileID: 1716120537}
+  rotationActive: 0
 --- !u!114 &2095522897
 MonoBehaviour:
   m_ObjectHideFlags: 0

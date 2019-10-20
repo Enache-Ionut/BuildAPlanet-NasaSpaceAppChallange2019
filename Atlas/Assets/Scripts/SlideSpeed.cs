@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SlideSpeed : MonoBehaviour
 {
@@ -18,8 +19,9 @@ public class SlideSpeed : MonoBehaviour
         
     }
 
-    public void OnValueChanged(int value)
+    public void OnValueChanged()
     {
+        var value = GetComponent<Slider>().value;
         var children = GameObject.FindGameObjectsWithTag("PlanetSystem");
         foreach (var child in children)
         {

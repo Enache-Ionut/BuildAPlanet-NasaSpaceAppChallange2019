@@ -174,6 +174,6 @@ public class ColorSelector : MonoBehaviour {
 		}
 	}
 	public static Color GetColor(){
-		return myslf.finalColor;
+		return Color.red;
 	}
 }

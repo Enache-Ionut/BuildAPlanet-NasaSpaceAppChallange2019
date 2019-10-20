@@ -446,7 +446,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7290df7805f09434388f1fee6d1413a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  orbitingObject: {fileID: 0}
+  orbitingObject: {fileID: 4732440898036942806}
   orbitPath:
     xAxis: 0.17
     yAxis: 0.17
@@ -2462,7 +2462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7290df7805f09434388f1fee6d1413a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  orbitingObject: {fileID: 0}
+  orbitingObject: {fileID: 4690387278430270050}
   orbitPath:
     xAxis: 0.065
     yAxis: 0.065
@@ -3383,7 +3383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7290df7805f09434388f1fee6d1413a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  orbitingObject: {fileID: 0}
+  orbitingObject: {fileID: 1094354136528581764}
   orbitPath:
     xAxis: 0.03
     yAxis: 0.03

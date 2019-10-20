@@ -64,11 +64,13 @@ public class FindPlanet : MonoBehaviour
         Debug.Log(header);
         Debug.Log(description);
 
-        UnityEngine.UI.Text title = childrens[0].GetComponent<UnityEngine.UI.Text>();
-        title.text = header;
-
-        UnityEngine.UI.Text descriptionText = childrens[1].GetComponent<UnityEngine.UI.Text>();
+        UnityEngine.UI.Text descriptionText = childrens[0].GetComponent<UnityEngine.UI.Text>();
         descriptionText.text = description;
+
+        Component[] titleChildrens = childrens[1].GetComponentsInChildren<UnityEngine.UI.Text>();
+
+        UnityEngine.UI.Text title = titleChildrens[0].GetComponent<UnityEngine.UI.Text>();
+        title.text = header;
 
         if(title == null)
             Debug.Log("title is null");

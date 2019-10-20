@@ -57,6 +57,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1853449773158532484}
   - component: {fileID: 2984385192627505851}
+  - component: {fileID: 2304465552409649242}
   m_Layer: 0
   m_Name: jupiterSystem
   m_TagString: PlanetSystem
@@ -103,6 +104,20 @@ MonoBehaviour:
   orbitPeriod: 119
   periodDevider: 1
   orbitActive: 1
+--- !u!114 &2304465552409649242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67668010449600069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 709d914fd83c14ba1bdde606f302da88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  header: Jupiter
+  description: jupiter description
 --- !u!1 &172757519221315785
 GameObject:
   m_ObjectHideFlags: 0
@@ -1060,6 +1075,7 @@ GameObject:
   m_Component:
   - component: {fileID: 547709588201721466}
   - component: {fileID: 2701443758179911629}
+  - component: {fileID: 2657582857236770544}
   m_Layer: 0
   m_Name: saturnSystem
   m_TagString: PlanetSystem
@@ -1103,6 +1119,20 @@ MonoBehaviour:
   orbitPeriod: 303
   periodDevider: 1
   orbitActive: 1
+--- !u!114 &2657582857236770544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2218557693628356245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 709d914fd83c14ba1bdde606f302da88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  header: Saturn
+  description: saturn description
 --- !u!1 &2501612371798140387
 GameObject:
   m_ObjectHideFlags: 0
@@ -1271,6 +1301,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9165765202346618804}
   - component: {fileID: 660076967200145465}
+  - component: {fileID: 730808638563386897}
   m_Layer: 0
   m_Name: neptuneSystem
   m_TagString: PlanetSystem
@@ -1313,6 +1344,20 @@ MonoBehaviour:
   orbitPeriod: 1666
   periodDevider: 1
   orbitActive: 1
+--- !u!114 &730808638563386897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2752111187162749631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 709d914fd83c14ba1bdde606f302da88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  header: neptune
+  description: neptune description
 --- !u!1 &2815631505772525411
 GameObject:
   m_ObjectHideFlags: 0
@@ -1613,6 +1658,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4967922066316924223}
   - component: {fileID: 97015474293549356}
+  - component: {fileID: 8755745511761292946}
   m_Layer: 0
   m_Name: venusSystem
   m_TagString: PlanetSystem
@@ -1655,6 +1701,20 @@ MonoBehaviour:
   orbitPeriod: 6
   periodDevider: 1
   orbitActive: 1
+--- !u!114 &8755745511761292946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4394926640063783674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 709d914fd83c14ba1bdde606f302da88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  header: Venus
+  description: venus description
 --- !u!1 &4610089219630809261
 GameObject:
   m_ObjectHideFlags: 0
@@ -2075,6 +2135,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7042722559015737063}
   - component: {fileID: 3724818711201734269}
+  - component: {fileID: 8147366438809725072}
   m_Layer: 0
   m_Name: earthSystem
   m_TagString: PlanetSystem
@@ -2118,6 +2179,20 @@ MonoBehaviour:
   orbitPeriod: 10
   periodDevider: 1
   orbitActive: 1
+--- !u!114 &8147366438809725072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6278901811472515560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 709d914fd83c14ba1bdde606f302da88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  header: Earth
+  description: earth description
 --- !u!1 &6279168108899376177
 GameObject:
   m_ObjectHideFlags: 0
@@ -2402,6 +2477,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5333624603992839385}
   - component: {fileID: 661116744073736879}
+  - component: {fileID: 6326419826663929019}
   m_Layer: 0
   m_Name: marsSystem
   m_TagString: PlanetSystem
@@ -2446,6 +2522,20 @@ MonoBehaviour:
   orbitPeriod: 19
   periodDevider: 1
   orbitActive: 1
+--- !u!114 &6326419826663929019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6718063145726435885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 709d914fd83c14ba1bdde606f302da88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  header: Mars
+  description: mars description
 --- !u!1 &6913522168503904076
 GameObject:
   m_ObjectHideFlags: 0
@@ -2678,6 +2768,7 @@ GameObject:
   m_Component:
   - component: {fileID: 334603926307994122}
   - component: {fileID: 5232123038500454497}
+  - component: {fileID: 3668803580688959128}
   m_Layer: 0
   m_Name: mercurySystem
   m_TagString: PlanetSystem
@@ -2720,6 +2811,20 @@ MonoBehaviour:
   orbitPeriod: 2
   periodDevider: 1
   orbitActive: 1
+--- !u!114 &3668803580688959128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6990776461626453602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 709d914fd83c14ba1bdde606f302da88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  header: Mercury
+  description: Some mercury description
 --- !u!1 &7007902371621233406
 GameObject:
   m_ObjectHideFlags: 0
@@ -2956,6 +3061,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2355217952613618933}
   - component: {fileID: 4480266364376998507}
+  - component: {fileID: 4842888316450040662}
   m_Layer: 0
   m_Name: plutoSystem
   m_TagString: PlanetSystem
@@ -2998,6 +3104,20 @@ MonoBehaviour:
   orbitPeriod: 2500
   periodDevider: 1
   orbitActive: 1
+--- !u!114 &4842888316450040662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7890653998753023326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 709d914fd83c14ba1bdde606f302da88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  header: pluto
+  description: pluto is not a planet
 --- !u!1 &8019573207678020325
 GameObject:
   m_ObjectHideFlags: 0
@@ -3409,6 +3529,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1556786576579221417}
   - component: {fileID: 8595713555967766556}
+  - component: {fileID: 8764834794037142267}
   m_Layer: 0
   m_Name: uranusSystem
   m_TagString: PlanetSystem
@@ -3451,6 +3572,20 @@ MonoBehaviour:
   orbitPeriod: 833
   periodDevider: 1
   orbitActive: 1
+--- !u!114 &8764834794037142267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8729336245251395923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 709d914fd83c14ba1bdde606f302da88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  header: URanus
+  description: uranus description
 --- !u!1 &9167029031851604835
 GameObject:
   m_ObjectHideFlags: 0

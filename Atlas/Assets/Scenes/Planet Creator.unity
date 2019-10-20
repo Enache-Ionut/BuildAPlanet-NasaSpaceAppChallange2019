@@ -3376,11 +3376,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: CreatePlanetPanel
       objectReference: {fileID: 0}
-    - target: {fileID: 15602164399125451, guid: cd1ca5fd8f140874795c44707786abfb,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 15602164399125449, guid: cd1ca5fd8f140874795c44707786abfb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3436,11 +3431,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 15602164123791440, guid: cd1ca5fd8f140874795c44707786abfb,
+    - target: {fileID: 15602164214049189, guid: cd1ca5fd8f140874795c44707786abfb,
         type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 581037058}
     - target: {fileID: 15602163475279359, guid: cd1ca5fd8f140874795c44707786abfb,
         type: 3}
       propertyPath: brushContainer
@@ -3456,6 +3451,11 @@ PrefabInstance:
       propertyPath: canvasCam
       value: 
       objectReference: {fileID: 1881853723}
+    - target: {fileID: 2319410530947997580, guid: cd1ca5fd8f140874795c44707786abfb,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5455084405834791257}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd1ca5fd8f140874795c44707786abfb, type: 3}
 --- !u!1001 &2156534165995071611

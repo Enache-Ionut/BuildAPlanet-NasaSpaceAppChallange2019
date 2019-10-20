@@ -52,7 +52,7 @@ public class OrbitMotion : MonoBehaviour
         }
         else
         {
-            orbitingObject.localPosition = new Vector3(orbitPath.xAxis, 0, 0);
+            orbitingObject.localPosition = new Vector3(0, 0, orbitPath.xAxis);
         }
     }
 

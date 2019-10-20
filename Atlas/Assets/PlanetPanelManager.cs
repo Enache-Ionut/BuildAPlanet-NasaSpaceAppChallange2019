@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlanetPanelManager : MonoBehaviour
 {
     public GameObject mainPanel;
+    public GameObject planet;
     public GameObject planetSizePanel;
     public GameObject createPlanetPanel;
     public GameObject moonPanel;
@@ -15,6 +16,7 @@ public class PlanetPanelManager : MonoBehaviour
     public void ActivatePlanetSizePanel()
     {
         mainPanel.SetActive(false);
+        planet.SetActive(true);
         planetSizePanel.SetActive(true);
     }
 

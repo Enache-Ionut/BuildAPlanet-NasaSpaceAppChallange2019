@@ -1231,7 +1231,7 @@ MonoBehaviour:
     xAxis: 0.004
     yAxis: 0.004
   orbitProgress: 0
-  orbitPeriod: 27.322
+  orbitPeriod: 2
   periodDevider: 1
   orbitActive: 1
 --- !u!114 &4080449428503190483

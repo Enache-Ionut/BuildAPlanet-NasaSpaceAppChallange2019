@@ -210,5 +210,10 @@ PrefabInstance:
       propertyPath: header
       value: Neptune
       objectReference: {fileID: 0}
+    - target: {fileID: 6279221132812350067, guid: affc5a06ef22e462e80b4b95a0499e83,
+        type: 3}
+      propertyPath: orbitPeriod
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: affc5a06ef22e462e80b4b95a0499e83, type: 3}

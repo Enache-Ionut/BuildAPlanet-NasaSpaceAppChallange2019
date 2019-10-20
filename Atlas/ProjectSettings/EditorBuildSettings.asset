@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/UIScene.unity
     guid: 089be5638249bcb4aa9360e49467764d
   - enabled: 1
-    path: Assets/Scenes/solarsystem.unity
+    path: Assets/Scenes/SolarSystemLearn.unity
     guid: 6274b7f975aa44708a580afebe191e49
   - enabled: 0
     path: Assets/Scenes/Universe.unity
@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/PlanetEditor.unity
     guid: b918aa087e0934ce9a8d7ce3153f17db
+  - enabled: 0
+    path: Assets/Scenes/SolarSystemDefault.unity
+    guid: a0cdb9405758c484ebacff8f6b9284db
   m_configObjects: {}

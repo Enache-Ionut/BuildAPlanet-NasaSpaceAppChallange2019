@@ -304,12 +304,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 318231704050603174}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecd9997dfcee74d1db669f47976d7c67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isAxisVisible: 1
+  isAxisVisible: 0
   width: 0
   length: 0
 --- !u!114 &3611874546736302150
@@ -337,7 +337,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7509632517421774290}
   m_Layer: 0
-  m_Name: solarSystem
+  m_Name: solarSystemDefault
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -352,7 +352,7 @@ Transform:
   m_GameObject: {fileID: 704564924955930248}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children:
   - {fileID: 3169829787266536685}
   - {fileID: 334603926307994122}
@@ -455,7 +455,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 758986063895130168}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecd9997dfcee74d1db669f47976d7c67, type: 3}
   m_Name: 
@@ -739,7 +739,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1312241477414082223}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecd9997dfcee74d1db669f47976d7c67, type: 3}
   m_Name: 
@@ -1463,7 +1463,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3939297821937244760}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecd9997dfcee74d1db669f47976d7c67, type: 3}
   m_Name: 
@@ -1574,12 +1574,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3970619790063357120}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecd9997dfcee74d1db669f47976d7c67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isAxisVisible: 1
+  isAxisVisible: 0
   width: 0
   length: 0
 --- !u!114 &1164523540204075026
@@ -1808,7 +1808,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecd9997dfcee74d1db669f47976d7c67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isAxisVisible: 1
+  isAxisVisible: 0
   width: 0.001
   length: 0.5
 --- !u!114 &8710039200877793912
@@ -2215,7 +2215,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecd9997dfcee74d1db669f47976d7c67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isAxisVisible: 1
+  isAxisVisible: 0
   width: 0.01
   length: 0.5
 --- !u!1 &6423116011183206737
@@ -2841,12 +2841,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7266582590124624313}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecd9997dfcee74d1db669f47976d7c67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isAxisVisible: 1
+  isAxisVisible: 0
   width: 0
   length: 0
 --- !u!114 &3965534585891354467
@@ -3085,7 +3085,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8019573207678020325}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecd9997dfcee74d1db669f47976d7c67, type: 3}
   m_Name: 
@@ -3196,7 +3196,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8078457266150742270}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecd9997dfcee74d1db669f47976d7c67, type: 3}
   m_Name: 
@@ -3307,7 +3307,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8140557600797609971}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecd9997dfcee74d1db669f47976d7c67, type: 3}
   m_Name: 
@@ -3521,12 +3521,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9167029031851604835}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecd9997dfcee74d1db669f47976d7c67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isAxisVisible: 1
+  isAxisVisible: 0
   width: 0
   length: 0
 --- !u!114 &8703924470624221497

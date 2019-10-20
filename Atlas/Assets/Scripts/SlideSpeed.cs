@@ -19,7 +19,7 @@ public class SlideSpeed : MonoBehaviour
         
     }
 
-    public void OnValueChanged()
+    public void OnValueChangedMe()
     {
         var value = GetComponent<Slider>().value;
         var children = GameObject.FindGameObjectsWithTag("PlanetSystem");

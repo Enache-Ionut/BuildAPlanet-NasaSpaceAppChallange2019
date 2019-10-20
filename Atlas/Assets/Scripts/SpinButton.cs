@@ -5,6 +5,7 @@ using UnityEngine;
 public class SpinButton : MonoBehaviour
 {
     public TapToPlaceGalaxy placeObject;
+    public bool rotationActive = false;
 
     private GameObject placedObject = null;
     // Start is called before the first frame update
@@ -21,12 +22,16 @@ public class SpinButton : MonoBehaviour
 
     public void ButtonPressed()
     {
+        rotationActive = !rotationActive;
+
         if(placedObject != null)
         {
-            if (placeObject.isActiveAndEnabled)
-                placedObject.SetActive(false);
-            else
-                placedObject.SetActive(true);
+            var children = GameObject.FindGameObjectsWithTag("PlanetSystem");
+            foreach(var child in children)
+            {
+                var orbitMotion = child.GetComponent<OrbitMotion>();
+                orbitMotion.orbitActive = rotationActive;
+            }
         }
     }
 }

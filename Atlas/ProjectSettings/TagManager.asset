@@ -15,6 +15,7 @@ TagManager:
   - Pluto
   - Panel text name
   - Panel text description
+  - SunParticles
   layers:
   - Default
   - TransparentFX

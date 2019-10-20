@@ -67,6 +67,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6151619116845082854, guid: affc5a06ef22e462e80b4b95a0499e83,
+        type: 3}
+      propertyPath: orbitActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 844925771449691890, guid: affc5a06ef22e462e80b4b95a0499e83,
         type: 3}
       propertyPath: description
@@ -81,6 +86,11 @@ PrefabInstance:
         found lots of evidence that Mars was much wetter and warmer, with a thicker
         atmosphere, billions of years ago.
       objectReference: {fileID: 0}
+    - target: {fileID: 8053285169139156020, guid: affc5a06ef22e462e80b4b95a0499e83,
+        type: 3}
+      propertyPath: orbitActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3270581241030587097, guid: affc5a06ef22e462e80b4b95a0499e83,
         type: 3}
       propertyPath: description
@@ -93,6 +103,11 @@ PrefabInstance:
         years old. All of the planets, except for Earth, were named after Greek and
         Roman gods and goddesses. However, the name Earth is a Germanic word, which
         simply means \u201Cthe ground.\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3114284482533370453, guid: affc5a06ef22e462e80b4b95a0499e83,
+        type: 3}
+      propertyPath: orbitActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2724889009322932402, guid: affc5a06ef22e462e80b4b95a0499e83,
         type: 3}
@@ -115,6 +130,11 @@ PrefabInstance:
         type: 3}
       propertyPath: header
       value: Uranus
+      objectReference: {fileID: 0}
+    - target: {fileID: 7088428689063163938, guid: affc5a06ef22e462e80b4b95a0499e83,
+        type: 3}
+      propertyPath: orbitActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2253866417402851615, guid: affc5a06ef22e462e80b4b95a0499e83,
         type: 3}
@@ -143,6 +163,11 @@ PrefabInstance:
       propertyPath: header
       value: Pluto
       objectReference: {fileID: 0}
+    - target: {fileID: 1508159408401242664, guid: affc5a06ef22e462e80b4b95a0499e83,
+        type: 3}
+      propertyPath: orbitActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7969128028850347217, guid: affc5a06ef22e462e80b4b95a0499e83,
         type: 3}
       propertyPath: description
@@ -152,6 +177,11 @@ PrefabInstance:
         from Earth, and the sunlight would be as much as seven times brighter. Despite
         its proximity to the Sun, Mercury is not the hottest planet in our solar
         system \u2013 that title belongs to nearby Venus, thanks to its dense atmosphere."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8723268082662694276, guid: affc5a06ef22e462e80b4b95a0499e83,
+        type: 3}
+      propertyPath: orbitActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8688450096294900921, guid: affc5a06ef22e462e80b4b95a0499e83,
         type: 3}
@@ -163,6 +193,11 @@ PrefabInstance:
         of ice and rock\u2014but none are as spectacular or as complicated as Saturn's. 
         Like fellow gas giant Jupiter, Saturn is a massive ball made mostly of hydrogen
         and helium."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437661398084997362, guid: affc5a06ef22e462e80b4b95a0499e83,
+        type: 3}
+      propertyPath: orbitActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4866466942990301715, guid: affc5a06ef22e462e80b4b95a0499e83,
         type: 3}
@@ -177,6 +212,11 @@ PrefabInstance:
         Spot is a giant storm bigger than Earth that has raged for hundreds of years.
         One spacecraft \u2014 NASA's Juno orbiter \u2014 is currently exploring this
         giant world."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6713347365298107237, guid: affc5a06ef22e462e80b4b95a0499e83,
+        type: 3}
+      propertyPath: orbitActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2733855348134704347, guid: affc5a06ef22e462e80b4b95a0499e83,
         type: 3}
@@ -193,6 +233,11 @@ PrefabInstance:
         in a runaway greenhouse effect, making it the hottest planet in our solar
         system\u2014with surface temperatures hot enough to melt lead. Glimpses below
         the clouds reveal volcanoes and deformed mountains."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6150547453079689840, guid: affc5a06ef22e462e80b4b95a0499e83,
+        type: 3}
+      propertyPath: orbitActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6221274588417219672, guid: affc5a06ef22e462e80b4b95a0499e83,
         type: 3}

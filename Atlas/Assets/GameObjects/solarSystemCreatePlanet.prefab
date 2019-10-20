@@ -100,7 +100,7 @@ MonoBehaviour:
   orbitProgress: 0
   orbitPeriod: 1666
   periodDevider: 1
-  orbitActive: 1
+  orbitActive: 0
 --- !u!114 &2783455919399733896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -366,7 +366,7 @@ MonoBehaviour:
   orbitProgress: 0
   orbitPeriod: 6
   periodDevider: 1
-  orbitActive: 1
+  orbitActive: 0
 --- !u!114 &6126620471608517131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1098,7 +1098,7 @@ MonoBehaviour:
   orbitProgress: 0
   orbitPeriod: 119
   periodDevider: 1
-  orbitActive: 1
+  orbitActive: 0
 --- !u!114 &3710847110130461891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1350,7 +1350,7 @@ MonoBehaviour:
   orbitProgress: 0
   orbitPeriod: 303
   periodDevider: 1
-  orbitActive: 1
+  orbitActive: 0
 --- !u!114 &604935336587420265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2005,7 +2005,7 @@ MonoBehaviour:
   orbitProgress: 0
   orbitPeriod: 2500
   periodDevider: 1
-  orbitActive: 1
+  orbitActive: 0
 --- !u!114 &8048475414277449679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2515,7 +2515,7 @@ MonoBehaviour:
   orbitProgress: 0
   orbitPeriod: 3
   periodDevider: 1
-  orbitActive: 1
+  orbitActive: 0
 --- !u!114 &766278213471490651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2583,7 +2583,7 @@ MonoBehaviour:
   orbitProgress: 0
   orbitPeriod: 2
   periodDevider: 1
-  orbitActive: 1
+  orbitActive: 0
 --- !u!114 &2192898528542034433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2828,7 +2828,7 @@ MonoBehaviour:
   orbitProgress: 0
   orbitPeriod: 833
   periodDevider: 1
-  orbitActive: 1
+  orbitActive: 0
 --- !u!114 &6135725899150880354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3453,7 +3453,7 @@ MonoBehaviour:
   orbitProgress: 0
   orbitPeriod: 3
   periodDevider: 1
-  orbitActive: 1
+  orbitActive: 0
 --- !u!114 &8707743655355880288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3729,7 +3729,7 @@ MonoBehaviour:
   orbitProgress: 0
   orbitPeriod: 19
   periodDevider: 1
-  orbitActive: 1
+  orbitActive: 0
 --- !u!114 &8885458770664536098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4124,7 +4124,7 @@ MonoBehaviour:
   orbitProgress: 0
   orbitPeriod: 10
   periodDevider: 1
-  orbitActive: 1
+  orbitActive: 0
 --- !u!114 &6743518534878192649
 MonoBehaviour:
   m_ObjectHideFlags: 0

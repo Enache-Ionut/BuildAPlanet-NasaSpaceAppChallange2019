@@ -59,7 +59,7 @@ GameObject:
   - component: {fileID: 2984385192627505851}
   m_Layer: 0
   m_Name: jupiterSystem
-  m_TagString: Untagged
+  m_TagString: PlanetSystem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1060,7 +1060,7 @@ GameObject:
   - component: {fileID: 2701443758179911629}
   m_Layer: 0
   m_Name: saturnSystem
-  m_TagString: Untagged
+  m_TagString: PlanetSystem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1270,7 +1270,7 @@ GameObject:
   - component: {fileID: 660076967200145465}
   m_Layer: 0
   m_Name: neptuneSystem
-  m_TagString: Untagged
+  m_TagString: PlanetSystem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1610,7 +1610,7 @@ GameObject:
   - component: {fileID: 97015474293549356}
   m_Layer: 0
   m_Name: venusSystem
-  m_TagString: Untagged
+  m_TagString: PlanetSystem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2068,7 +2068,7 @@ GameObject:
   - component: {fileID: 3724818711201734269}
   m_Layer: 0
   m_Name: earthSystem
-  m_TagString: Untagged
+  m_TagString: PlanetSystem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2393,7 +2393,7 @@ GameObject:
   - component: {fileID: 661116744073736879}
   m_Layer: 0
   m_Name: marsSystem
-  m_TagString: Untagged
+  m_TagString: PlanetSystem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2668,7 +2668,7 @@ GameObject:
   - component: {fileID: 5232123038500454497}
   m_Layer: 0
   m_Name: mercurySystem
-  m_TagString: Untagged
+  m_TagString: PlanetSystem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2944,7 +2944,7 @@ GameObject:
   - component: {fileID: 4480266364376998507}
   m_Layer: 0
   m_Name: plutoSystem
-  m_TagString: Untagged
+  m_TagString: PlanetSystem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3395,7 +3395,7 @@ GameObject:
   - component: {fileID: 8595713555967766556}
   m_Layer: 0
   m_Name: uranusSystem
-  m_TagString: Untagged
+  m_TagString: PlanetSystem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -16,6 +16,7 @@ TagManager:
   - Panel text name
   - Panel text description
   - SunParticles
+  - PlanetSystem
   layers:
   - Default
   - TransparentFX

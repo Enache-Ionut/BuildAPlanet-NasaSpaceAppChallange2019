@@ -4,19 +4,37 @@ using UnityEngine;
 
 public class PlanetPanelManager : MonoBehaviour
 {
+    public GameObject mainPanel;
     public GameObject planetSizePanel;
-    public GameObject distancePanel;
+    public GameObject createPlanetPanel;
     public GameObject moonPanel;
+    public GameObject planetChemistry;
 
     // Start is called before the first frame update
-    void Start()
+
+    public void ActivatePlanetSizePanel()
     {
-        
+        mainPanel.SetActive(false);
+        planetSizePanel.SetActive(true);
     }
 
-    // Update is called once per frame
-    void Update()
+
+    public void ActivateMoonPanel()
     {
-        
+        planetSizePanel.SetActive(false);
+        moonPanel.SetActive(true);
     }
+
+    public void ActivatePlanetChemistry()
+    {
+        moonPanel.SetActive(false);
+        planetChemistry.SetActive(true);
+    }
+
+    public void ActivateCreatePlanet()
+    {
+        planetChemistry.SetActive(false);
+        createPlanetPanel.SetActive(true);
+    }
+
 }

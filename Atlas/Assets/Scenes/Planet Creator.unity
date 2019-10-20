@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 50bb1c8f084f4af40ba277095da3a844, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 81f714daf7144784b8a2f42f1cd30927, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.2628107, g: 0.35929838, b: 0.5437081, a: 1}
+  m_IndirectSpecularColor: {r: 0.23207375, g: 0.23575982, b: 0.27139103, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &4
 LightmapSettings:
@@ -2377,7 +2377,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 581037059}
-  - {fileID: 8486895207990343546}
   - {fileID: 8486895207990343550}
   m_Father: {fileID: 1800735146}
   m_RootOrder: 3
@@ -4920,6 +4919,12 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5356321784921159316, guid: 5130fa130cb50f149b10fb7c9d45c12c, type: 3}
+--- !u!1 &1966144484 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3089680711433485153, guid: 94afaf5103d6d664cbf7ceb7db109664,
+    type: 3}
+  m_PrefabInstance: {fileID: 1079738668}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2019280142
 GameObject:
   m_ObjectHideFlags: 0
@@ -6460,6 +6465,7 @@ RectTransform:
   - {fileID: 5455084404174118494}
   - {fileID: 5455084404637612863}
   - {fileID: 5455084404478530847}
+  - {fileID: 8486895207990343546}
   m_Father: {fileID: 5455084405834791236}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6628,9 +6634,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc8ae203170f7b849883cf7137dfef33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  planetSizePanel: {fileID: 0}
-  distancePanel: {fileID: 0}
-  moonPanel: {fileID: 0}
+  mainPanel: {fileID: 5455084405827397859}
+  planetSizePanel: {fileID: 2076639858}
+  createPlanetPanel: {fileID: 1966144484}
+  moonPanel: {fileID: 1926032045}
+  planetChemistry: {fileID: 1966144484}
 --- !u!4 &8486895207990343546
 Transform:
   m_ObjectHideFlags: 0
@@ -6638,12 +6646,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8486895207990504282}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1011, y: -553, z: 4}
   m_LocalScale: {x: 1.7848135, y: 1.7848135, z: 1.7848135}
   m_Children: []
-  m_Father: {fileID: 941674328}
-  m_RootOrder: 1
+  m_Father: {fileID: 5455084405827397858}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &8486895207990343550
 Transform:
@@ -6652,13 +6660,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8486895207990504286}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0.69647586, z: -0, w: 0.7175802}
+  m_LocalPosition: {x: 47, y: 0, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 941674328}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -88.29, z: 0}
 --- !u!1 &8486895207990504282
 GameObject:
   m_ObjectHideFlags: 0

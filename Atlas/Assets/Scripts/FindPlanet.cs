@@ -28,6 +28,7 @@ public class FindPlanet : MonoBehaviour
             if (Physics.Raycast(raycast, out raycastHit))
             {
                 Debug.Log("Something Hit");
+
                 var planetInfo = raycastHit.transform.gameObject.GetComponent<PlanetInfo>();
                 if(planetInfo != null)
                 {

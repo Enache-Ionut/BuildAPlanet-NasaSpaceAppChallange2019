@@ -24,18 +24,28 @@ public class FindPlanet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Panel == null && arOrigin == null && arRaycastManager == null)
+            return;
+
         if ((Input.touchCount > 0) && (Input.GetTouch(0).phase == TouchPhase.Began))
         {
             Debug.Log("Display Touch");
             Ray raycast = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
+
             RaycastHit raycastHit;
             if (Physics.Raycast(raycast, out raycastHit))
             {
-                Debug.Log("Something Hit");
-
                 var planetInfo = raycastHit.transform.gameObject.GetComponent<PlanetInfo>();
                 if(planetInfo != null)
                 {
+                    Debug.Log("Something Hit " + planetInfo.header + " " + planetInfo.description);
+
+                    if (planetInfo.header == null)
+                        Debug.Log("Header is null");
+
+                    if (planetInfo.description == null)
+                        Debug.Log("description is null");
+
                     ActivatePanel(planetInfo.header, planetInfo.description);
                 }
             }
@@ -49,13 +59,23 @@ public class FindPlanet : MonoBehaviour
     void ActivatePanel(string header, string description)
     {
         Panel.SetActive(true);
-        Transform[] ts = gameObject.GetComponentsInChildren<Transform>();
+        Component[] childrens = Panel.GetComponentsInChildren<UnityEngine.UI.Text>();
 
         Debug.Log(header);
         Debug.Log(description);
 
-        ts[0].gameObject.GetComponent<UnityEngine.UI.Text>().text = header;
-        ts[1].gameObject.GetComponent<UnityEngine.UI.Text>().text = description;
+        UnityEngine.UI.Text title = childrens[0].GetComponent<UnityEngine.UI.Text>();
+        title.text = header;
+
+        UnityEngine.UI.Text descriptionText = childrens[1].GetComponent<UnityEngine.UI.Text>();
+        descriptionText.text = description;
+
+        if(title == null)
+            Debug.Log("title is null");
+
+        if (title == null)
+            Debug.Log("descriptionText is null");
+
     }
 
     void DeactivatePanel()

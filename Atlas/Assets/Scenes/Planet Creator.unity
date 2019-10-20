@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.23236844, g: 0.23554417, b: 0.27230176, a: 1}
+  m_IndirectSpecularColor: {r: 0.23207375, g: 0.23575982, b: 0.27139103, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &4
 LightmapSettings:
@@ -411,6 +411,12 @@ CanvasRenderer:
 --- !u!1 &530915724 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 15602164399125451, guid: cd1ca5fd8f140874795c44707786abfb,
+    type: 3}
+  m_PrefabInstance: {fileID: 15602164036112967}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &530915726 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 15602164399125449, guid: cd1ca5fd8f140874795c44707786abfb,
     type: 3}
   m_PrefabInstance: {fileID: 15602164036112967}
   m_PrefabAsset: {fileID: 0}
@@ -1431,6 +1437,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlanetChemistryPanel
       objectReference: {fileID: 0}
+    - target: {fileID: 3089680711433485153, guid: 94afaf5103d6d664cbf7ceb7db109664,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3089680711433485166, guid: 94afaf5103d6d664cbf7ceb7db109664,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1539,24 +1550,24 @@ PrefabInstance:
     - target: {fileID: 2717918144670677694, guid: 94afaf5103d6d664cbf7ceb7db109664,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3750089649954792892, guid: 94afaf5103d6d664cbf7ceb7db109664,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5419442377253929159, guid: 94afaf5103d6d664cbf7ceb7db109664,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6631051238866677768, guid: 94afaf5103d6d664cbf7ceb7db109664,
+    - target: {fileID: 1611699598197778766, guid: 94afaf5103d6d664cbf7ceb7db109664,
         type: 3}
       propertyPath: planet
       value: 
       objectReference: {fileID: 855470911}
-    - target: {fileID: 1611699598197778766, guid: 94afaf5103d6d664cbf7ceb7db109664,
+    - target: {fileID: 6631051238866677768, guid: 94afaf5103d6d664cbf7ceb7db109664,
         type: 3}
       propertyPath: planet
       value: 
@@ -3134,17 +3145,12 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 5455084405834791236}
     m_Modifications:
     - target: {fileID: 15602164399125451, guid: cd1ca5fd8f140874795c44707786abfb,
         type: 3}
       propertyPath: m_Name
       value: CreatePlanetPanel
-      objectReference: {fileID: 0}
-    - target: {fileID: 15602164399125451, guid: cd1ca5fd8f140874795c44707786abfb,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 15602163475279359, guid: cd1ca5fd8f140874795c44707786abfb,
         type: 3}
@@ -3164,12 +3170,12 @@ PrefabInstance:
     - target: {fileID: 15602164399125449, guid: cd1ca5fd8f140874795c44707786abfb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 40
+      value: -920
       objectReference: {fileID: 0}
     - target: {fileID: 15602164399125449, guid: cd1ca5fd8f140874795c44707786abfb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -540
       objectReference: {fileID: 0}
     - target: {fileID: 15602164399125449, guid: cd1ca5fd8f140874795c44707786abfb,
         type: 3}
@@ -3179,17 +3185,17 @@ PrefabInstance:
     - target: {fileID: 15602164399125449, guid: cd1ca5fd8f140874795c44707786abfb,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 15602164399125449, guid: cd1ca5fd8f140874795c44707786abfb,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 15602164399125449, guid: cd1ca5fd8f140874795c44707786abfb,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 15602164399125449, guid: cd1ca5fd8f140874795c44707786abfb,
         type: 3}
@@ -3199,7 +3205,7 @@ PrefabInstance:
     - target: {fileID: 15602164399125449, guid: cd1ca5fd8f140874795c44707786abfb,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 15602164399125449, guid: cd1ca5fd8f140874795c44707786abfb,
         type: 3}
@@ -3226,6 +3232,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 5455084405834791257}
+    - target: {fileID: 15602164123791440, guid: cd1ca5fd8f140874795c44707786abfb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd1ca5fd8f140874795c44707786abfb, type: 3}
 --- !u!1001 &2156534165995071611
@@ -4303,6 +4314,7 @@ RectTransform:
   - {fileID: 2076639859}
   - {fileID: 1926032046}
   - {fileID: 1079738669}
+  - {fileID: 530915726}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

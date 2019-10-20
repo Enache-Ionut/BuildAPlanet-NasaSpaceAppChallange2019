@@ -113,8 +113,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 709d914fd83c14ba1bdde606f302da88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  header: neptune
-  description: neptune description
+  header: Neptune
+  description: Dark, cold and whipped by supersonic winds, ice giant Neptune is the
+    eighth and most distant planet in our solar system.  More than 30 times as far
+    from the Sun as Earth, Neptune is the only planet in our solar system not visible
+    to the naked eye and the first predicted by mathematics before its discovery.
+    In 2011 Neptune completed its first 165-year orbit since its discovery in 1846.
+    NASA's Voyager 2 is the only spacecraft to have visited Neptune up close. It
+    flew past in 1989 on its way out of the solar system.
 --- !u!135 &2483899100914010953
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -374,7 +380,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   header: Venus
-  description: venus description
+  description: "Jan. 31, 2019: A Japanese research group has identified a giant streak
+    structure among the clouds covering Venus based on observation from the spacecraft
+    Akatsuki.  The team also revealed the origins of this structure using large-scale
+    climate simulations. The group was led by Project Assistant Professor Hiroki
+    Kashimura (Kobe University, Graduate School of Science) and these findings were
+    published on January 9 in Nature Communications. Second planet from the Sun and
+    our closest planetary neighbor, Venus is similar in structure and size to Earth,
+    but it is now a very different world. Venus spins slowly in the opposite direction
+    most planets do. Its thick atmosphere traps heat in a runaway greenhouse effect,
+    making it the hottest planet in our solar system\u2014with surface temperatures
+    hot enough to melt lead. Glimpses below the clouds reveal volcanoes and deformed
+    mountains."
 --- !u!135 &3430378525630103526
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1095,7 +1112,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   header: Jupiter
-  description: jupiter description
+  description: "Jupiter has a long history surprising scientists\u2014all the way
+    back to 1610 when Galileo Galilei found the first moons beyond Earth. That discovery
+    changed the way we see the universe.  Fifth in line from the Sun, Jupiter is,
+    by far, the largest planet in the solar system \u2013 more than twice as massive
+    as all the other planets combined. Jupiter's familiar stripes and swirls are
+    actually cold, windy clouds of ammonia and water, floating in an atmosphere of
+    hydrogen and helium. Jupiter\u2019s iconic Great Red Spot is a giant storm bigger
+    than Earth that has raged for hundreds of years. One spacecraft \u2014 NASA's
+    Juno orbiter \u2014 is currently exploring this giant world."
 --- !u!135 &3121422547309745831
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1339,7 +1364,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   header: Saturn
-  description: saturn description
+  description: "Saturn is the sixth planet from the Sun and the second largest planet
+    in our solar system.  The Latest    Scientists Finally Know What Time It Is on
+    Saturn Adorned with thousands of beautiful ringlets, Saturn is unique among the
+    planets. It is not the only planet to have rings\u2014made of chunks of ice and
+    rock\u2014but none are as spectacular or as complicated as Saturn's.  Like fellow
+    gas giant Jupiter, Saturn is a massive ball made mostly of hydrogen and helium."
 --- !u!135 &4410944735114998070
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1988,8 +2018,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 709d914fd83c14ba1bdde606f302da88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  header: pluto
-  description: pluto is not a planet
+  header: Pluto
+  description: "July 14, 2017: On July 14, 2015, NASA\u2019s New Horizons spacecraft
+    made its historic flight through the Pluto system \u2013 providing the first
+    close-up images of Pluto and its moons and collecting other data that has transformed
+    our understanding of these mysterious worlds on the solar system\u2019s outer
+    frontier.  Perspective view of Pluto's highest mountains, Tenzing Montes. Credit:
+    NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute/
+    Lunar and Planetary Institute/Paul Schenk Scientists are still analyzing and
+    uncovering data that New Horizons recorded and sent home after the encounter.
+    On the two-year anniversary of the flyby, the team unveiled a set of detailed,
+    high-quality global maps of Pluto and its largest moon, Charon. Pluto\u2014which
+    is smaller than Earth\u2019s Moon\u2014has a heart-shaped glacier that\u2019s
+    the size of Texas and Oklahoma. This fascinating world has blue skies, spinning
+    moons, mountains as high as the Rockies, and it snows\u2014but the snow is red.
+    \u201CThe complexity of the Pluto system \u2014 from its geology to its satellite
+    system to its atmosphere\u2014 has been beyond our wildest imagination,\u201D
+    said Alan Stern, New Horizons principal investigator from the Southwest Research
+    Institute in Boulder, Colorado. \u201CEverywhere we turn are new mysteries.\""
 --- !u!135 &7646166321888520308
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2551,7 +2597,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   header: Mercury
-  description: Some mercury description
+  description: "The Swiftest Planet  The smallest planet in our solar system and
+    nearest to the Sun, Mercury is only slightly larger than Earth's Moon.  From
+    the surface of Mercury, the Sun would appear more than three times as large as
+    it does when viewed from Earth, and the sunlight would be as much as seven times
+    brighter. Despite its proximity to the Sun, Mercury is not the hottest planet
+    in our solar system \u2013 that title belongs to nearby Venus, thanks to its
+    dense atmosphere."
 --- !u!135 &8715571713873171000
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2789,8 +2841,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 709d914fd83c14ba1bdde606f302da88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  header: URanus
-  description: uranus description
+  header: Uranus
+  description: "April 24, 2018: The jokes, they write themselves. The science is
+    pretty interesting, too. What do the clouds of Uranus have in common with rotten
+    eggs? The composition of Uranus' clouds had long been a mystery. In April 2017,
+    a global research team found hydrogen sulfide, the odiferous gas that most people
+    avoid, in Uranus\u2019 cloud tops\u2014a striking difference from the gas giant
+    planets located closer to the Sun. The first planet found with the aid of a telescope,
+    Uranus was discovered in 1781 by astronomer William Herschel, although he originally
+    thought it was either a comet or a star. It was two years later that the object
+    was universally accepted as a new planet, in part because of observations by
+    astronomer Johann Elert Bode. Herschel tried unsuccessfully to name his discovery
+    Georgium Sidus after King George III. Instead the planet was named for Uranus,
+    the Greek god of the sky, as suggested by Johann Bode. "
 --- !u!135 &2947489144284032557
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3680,7 +3743,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   header: Mars
-  description: mars description
+  description: The fourth planet from the Sun, Mars is a dusty, cold, desert world
+    with a very thin atmosphere.  This dynamic planet has seasons, polar ice caps
+    and weather and canyons and extinct volacanoes, evidence of an even more active
+    past. Mars is one of the most explored bodies in our solar system, and it's the
+    only planet where we've sent rovers to roam the alien landscape. NASA currently
+    has three spacecraft in orbit, one rover and one lander on the surface and another
+    rover under construction here on Earth. India and ESA also have spacecraft in
+    orbit above Mars. These robotic explorers have found lots of evidence that Mars
+    was much wetter and warmer, with a thicker atmosphere, billions of years ago.
 --- !u!135 &256180269564221965
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4067,7 +4138,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   header: Earth
-  description: earth description
+  description: "Our home planet is the third planet from the Sun, and the only place
+    we know of so far that\u2019s inhabited by living things.  While Earth is only
+    the fifth largest planet in the solar system, it is the only world in our solar
+    system with liquid water on the surface. Just slightly larger than nearby Venus,
+    Earth is the biggest of the four planets closest to the Sun, all of which are
+    made of rock and metal. The name Earth is at least 1,000 years old. All of the
+    planets, except for Earth, were named after Greek and Roman gods and goddesses.
+    However, the name Earth is a Germanic word, which simply means \u201Cthe ground.\u201D"
 --- !u!135 &7445588493111252358
 SphereCollider:
   m_ObjectHideFlags: 0
